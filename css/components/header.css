@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.1);
+}
+.header_menu {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_contents {
+  display: flex;
+}
+.header_content a {
+  font-family: "Montserrat-Medium";
+  font-size: 16px;
+  margin-right: 32px;
+}
+.header_content:last-child a {
+  margin-right: 0;
+}
+.header_content a:hover {
+  color: #4374e5;
+  cursor: pointer;
+}
+.logo {
+  width: 230px;
+  height: 32px;
+}
